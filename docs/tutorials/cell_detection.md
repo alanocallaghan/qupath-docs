@@ -129,6 +129,8 @@ From this, it is possible to generate histograms, sort columns, select individua
 Cell detection results table
 :::
 
+<!-- todo: update screenie -->
+
 One particular use of this table is to help determine what threshold is most appropriate to apply to the *Nucleus: DAB OD mean* measurements to determine if a cell is positive or not.
 Since this measurement is included in the table, a histogram can be generated for this value from all detected cells.
 Because most cells in this example are negative, the image below shows a large peak around 0 and a long tail to the right.
@@ -162,6 +164,9 @@ The final result should look something like that below.
 Multiple annotations for Ki67 image
 :::
 
+<!-- todo: update screenie -->
+
+
 ## View results
 
 Whenever you have multiple annotations, it can be helpful to generate a results table for these.
@@ -173,6 +178,9 @@ You can also access this command from the *Measurement table* icon in the toolba
 
 Annotation results table
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{tip}
 You can use the {guilabel}`Convert detections to points` button within the **Points tool** {{ icon_points }} to generate an editable points annotation from the detected cells.

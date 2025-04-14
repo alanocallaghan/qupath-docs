@@ -38,6 +38,8 @@ This can be done very quickly, and should include a mixture of both tumor and no
 Ki67 image
 :::
 
+<!-- todo: update screenie -->
+
 :::{tip}
 See {doc}`thresholding` for other ways to define the region of interest automatically.
 
@@ -70,6 +72,9 @@ In this case, QuPath will overlap the regions and then try to resolve cells dete
 Ki67 parallel cell detection
 :::
 
+<!-- todo: update screenie -->
+
+
 The resulting cell detection is shown below.
 
 :::{figure} images/ki67_auto_cells_detected.jpg
@@ -77,6 +82,9 @@ The resulting cell detection is shown below.
 
 Detected cells
 :::
+
+<!-- todo: update screenie -->
+
 
 ## View cell measurements (if you want)
 
@@ -89,6 +97,9 @@ One way to view the measurements is by generating a results table, as described 
 
 Results table showing cell features
 :::
+
+<!-- todo: update screenie -->
+
 
 However, another way to visualize cell measurements is by using the {menuselection}`Measure --> Show measurement maps` command.
 
@@ -104,6 +115,9 @@ The *Nucleus/Cell area ratio* incorporates both of these characteristics in a si
 
 Measurement map for Nucleus/Cell area ratio
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{tip}
 Need the color bar out of QuPath as a reference? It can be copied as an image by simply right clicking on it and selecting {guilabel}`copy`.
@@ -138,6 +152,9 @@ This reduces the noisiness of the measurements more effectively, but also makes 
 Smooth features dialog
 :::
 
+<!-- todo: update screenie -->
+
+
 After applying smoothing with the parameters shown above, clicking {guilabel}`Update map` within the *Measurement map* dialog causes the new measurements to appear.
 The smoothed version of *Nucleus/Cell area ratio* is shown below.
 Again, higher values are seen in areas of tumor -- but now these are much more homogeneous.
@@ -170,6 +187,9 @@ Double-clicking on the list of classification allows you to change their colors,
 Training cell classification
 :::
 
+<!-- todo: update screenie -->
+
+
 Continue creating annotations and assigning their classes.
 Right-clicking on the image after drawing the annotation can offer an easier way to set the class, without needing to move the mouse to the other side of the screen and press the {guilabel}`Set class` button on the left.
 
@@ -178,6 +198,9 @@ Right-clicking on the image after drawing the annotation can offer an easier way
 
 Training cell classification with right-click
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{warning}
 It is important to annotate regions where cells have already been detected!
@@ -198,6 +221,9 @@ Pressing {guilabel}`Live update` will train up a classifier that QuPath will the
 Training cell classification with live update
 :::
 
+<!-- todo: update screenie -->
+
+
 :::{tip}
 Make sure to toggle the detections on (*Show/hide detection objects* command {{ icon_detections }}), otherwise you will not be seeing any of the cells nor the classification displayed.
 :::
@@ -217,6 +243,9 @@ Holding down shift while right-clicking on the image provides a third way to set
 Training cell classification with shift + right-click
 :::
 ::::
+
+<!-- todo: update screenie -->
+
 
 :::{admonition} Improving the classifier
 The choice of annotations are important for classifier performance, but there are other customizations available if you need them.
@@ -250,6 +279,9 @@ Make sure that {guilabel}`Single threshold` is selected and then adjust *Thresho
 
 Intensity classification
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{tip}
 If you want to update the intensity classification threshold later, without needing to go through the whole detection classification thing, you can simply re-run the *Set cell intensity classifications* command.

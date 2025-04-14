@@ -51,6 +51,8 @@ In this regard, it is strongly preferable that summary statistics are dynamic be
 Illustration of the different measurement types within QuPath. The measurement list on the left relates to the individual selected cell shown in yellow (a **detection** object). The measurement table contains both summary and shape statistics for the polygonal **annotation** object.
 :::
 
+<!-- todo: update screenie -->
+
 The summary statistics are based upon the detection objects descended from the annotation.
 More information is given in {doc}`object_hierarchy`.
 

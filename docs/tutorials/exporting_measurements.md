@@ -31,6 +31,9 @@ After choosing the objects you wish to export (e.g. detections, annotations), a 
 Saving cell detection measurements via the measurement table
 :::
 
+<!-- todo: update screenie -->
+
+
 You can then save your measurement by pressing **Save** and choosing an appropriate name for your output `.txt` file.
 
 :::{note}

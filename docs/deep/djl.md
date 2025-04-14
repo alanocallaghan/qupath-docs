@@ -159,6 +159,8 @@ println "Detected objects: ${detected.orElse([])}"
 Object detection using DJL model zoo (PyTorch SSD)
 :::
 
+<!-- todo: update screenie -->
+
 Success!
 Kind of.
 The detection basically works, and found both the guinea pig and his pellet bowl.
@@ -171,6 +173,8 @@ Results are better when applied to this recent photo from a trip to the Northern
 
 Object detection of holidaying cows using DJL model zoo (PyTorch SSD)
 :::
+
+<!-- todo: update screenie -->
 
 :::{admonition} Instance segmentation
 :class: tip
@@ -209,6 +213,8 @@ println(segmented.orElse([]))
 
 Semantic segmentation of holidaying cows using DJL model zoo (PyTorch DeepLabv3)
 :::
+
+<!-- todo: update screenie -->
 
 ### Style transfer
 

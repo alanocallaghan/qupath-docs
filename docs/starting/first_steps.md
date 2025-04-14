@@ -138,7 +138,7 @@ You can also jump to a specific magnification if you:
 The *Magnification box*
 :::
 
-Double-clicking on the magnification value in the toolbar (here, the bit that shows 10.0x) opens an input dialog to enter a specific magnification.
+Double-clicking on the magnification value in the toolbar (here, the bit that shows 10.00x) opens an input dialog to enter a specific magnification.
 
 As you zoom in and out, the scalebar in the lower left cover will conveniently update so you always know your scale.
 
@@ -215,6 +215,8 @@ Since QuPath version 0.4, you can also click the middle button (or scroll wheel)
 Rectangle, ellipse and polygon annotation objects drawn on an image
 :::
 
+<!-- todo: update screenie -->
+
 ### Identifying selections
 
 You should find that when you draw an annotation object, it is initially selected.
@@ -256,6 +258,9 @@ You can also set an annotation's properties by selecting it and hitting *Enter*.
 
 The *Annotations tab*
 :::
+
+<!-- todo: update screenie -->
+
 
 ### Viewing measurements
 
@@ -304,6 +309,9 @@ These cells are your first **detection objects**.
 First detected cells, using default detection parameters
 :::
 
+<!-- todo: update screenie -->
+
+
 :::{note}
 Detection objects also have measurements, like annotation objects.
 
@@ -345,6 +353,9 @@ You can also right-click on the image, and further modify how cells are displaye
 
 Right-click on the image to change how cells are displayed
 :::
+
+<!-- todo: update screenie -->
+
 
 ### Creating measurement tables
 

@@ -144,6 +144,9 @@ Knowing the classification makes it possible to do more interesting things, e.g.
 Detected nucleus assigned the *sub-classification* `Tumor: Positive`
 :::
 
+<!-- todo: update screenie (resolution!!!) -->
+
+
 ### Measurement list
 
 The **measurement list** encapsulates some (numeric) measurements of an object.
@@ -155,6 +158,8 @@ These measurements may be interesting in themselves, but they can also be useful
 
 Measurement list (bottom left) for a selected detection object
 :::
+
+<!-- todo: update screenie (resolution!!!) -->
 
 ## Summary
 

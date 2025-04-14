@@ -116,6 +116,9 @@ You can either right-click this list or select the {guilabel}`⋮` button and ch
 Populating the classifications from the image channels
 :::
 
+<!-- todo: update screenie -->
+
+
 ## Detect & measure cells
 
 QuPath's default {doc}`Cell detection <cell_detection>` command can be applied for fluorescence and multiplexed images, not only brightfield.
@@ -129,6 +132,9 @@ If so, select that channel and explore different parameters and thresholds until
 Example of cell detection in the luca-7color image
 :::
 
+<!-- todo: update screenie -->
+
+
 Along with the cell detection, QuPath automatically measures all channels in different cell compartments.
 Because these measurements are based on the channel names, it is important to have these names established first.
 
@@ -137,6 +143,9 @@ Because these measurements are based on the channel names, it is important to ha
 
 Exploring the detection results using measurement maps
 :::
+
+<!-- todo: update screenie -->
+
 
 ## Create a classifier for each marker
 
@@ -163,6 +172,9 @@ As usual, you can consider the options in the dialog box in order from top to bo
 Creating a single measurement classifier for PDL1
 :::
 
+<!-- todo: update screenie -->
+
+
 In this case, we can ignore the **Object filter** (all our detections are cells, so no need to distinguish between them).
 
 The **Channel filter** will be helpful, because it will help us quickly set sensible defaults for the options below.
@@ -182,6 +194,9 @@ To see the effects of any adjustments we make, we can use the **Live preview** o
 
 Looking at the live view of the CK single measurement classifier
 :::
+
+<!-- todo: update screenie -->
+
 
 Once you are reasonably content with the results, check (and amend if necessary) the **Classifier name** and click {guilabel}`Save`.
 This will save a classifier with the current settings to the project.
@@ -266,6 +281,9 @@ We shouldn't use any other classes in the training annotations.
 Training an object classifier for FoxP3 by selecting individual cells
 :::
 
+<!-- todo: update screenie -->
+
+
 Once you are done with one marker, choose {menuselection}`Save & Apply` and enter a name to identify your classifier.
 Then save the image data and open the image associated with the next marker of interest, repeating the process as many times as necessary.
 
@@ -273,6 +291,8 @@ Then save the image data and open the image associated with the next marker of i
 :class: shadow-image full-image
 Training an object classifier for CK using the brush tool to annotate many cells at once
 :::
+
+<!-- todo: update screenie -->
 
 :::{tip}
 I find three things helpful when training a single-channel classifier:
@@ -296,6 +316,9 @@ You can return to your original image that you want to classify and choose {menu
 Loading a trained classifier
 :::
 
+<!-- todo: update screenie -->
+
+
 This should display all the classifiers available within the project.
 Choose any and press {guilabel}`Apply classifier` to see it in action.
 
@@ -306,6 +329,9 @@ Then, choose *any combination* of classifiers and press {guilabel}`Apply classif
 
 Loading and combining multiple classifiers
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{tip}
 To avoid needing to repeatedly select more than one classifier under {menuselection}`Load object classifier`, you can create a single 'combined' classifier using {menuselection}`Classify --> Object classification --> Create composite classifier`.
@@ -318,6 +344,9 @@ To avoid needing to repeatedly select more than one classifier under {menuselect
 
 The image with multiple classifiers applied
 :::
+
+<!-- todo: update screenie -->
+
 
 Amidst a blaze of color, it can rapidly become difficult to interpret images.
 A few things can help:
@@ -332,6 +361,9 @@ A few things can help:
 
 Using the channel viewer to see the varying centroid shapes and colors
 :::
+
+<!-- todo: update screenie -->
+
 
 :::{admonition} One class or many?
 When querying the data, it can be helpful to know that objects in QuPath can ultimately only have a *single* classification, but this classification can have different pieces.

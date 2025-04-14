@@ -1,6 +1,8 @@
 (bioimage-io)=
 # Bioimage Model Zoo
 
+<!-- TODO: needs full update -->
+
 The [Bioimage Model Zoo (bioimage.io)](https://bioimage.io) is a recent initiative to make deep learning models for bioimage analysis more accessible and transferable between software.
 
 The Bioimage Model Zoo does two main things:
